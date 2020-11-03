@@ -15,7 +15,7 @@ public class ExceptionTest {
 			Class.forName("java.lang.String2");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace(); => 오류부분 출력
 			System.out.println("입력값을 확인해 주세요");
 		}
 	}
